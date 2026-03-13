@@ -1,0 +1,32 @@
+# majorPatchVersion == 46
+
+uint16 unk1
+bool   unk2
+bool   unk3
+uint16 unk4
+
+array quests
+- int32 id
+- int32 dbid
+- int32 step
+- int32 unk2
+- int32 unk3
+- bool  unk4
+- bool  unk5
+- bool  unk6
+- bool  showTracker
+- bool  unk7
+- bool  unk8
+- bool  eligible
+- int32 unk9
+- int32 unk10
+- int32 unk11
+- int32 unk12
+
+- array dialogs
+- - vec3  loc
+- - int32 huntingZoneId
+- - int32 templateId
+- - int32 zone
+
+- array<int32> tasks

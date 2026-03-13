@@ -1,0 +1,103 @@
+ref characters
+
+bool   veteran
+uint32 gameTimeRemaining
+int32  bonusBufSec
+int32  maxCharacters
+int32  updateMode
+bool   first
+bool   more
+
+int32  leftDelTimeAccountOver
+int32  deletionSectionClassifyLevel
+
+array  characters
+- ref  customStrings
+- ref  name
+- ref  details
+- ref  shape
+- ref  guildName
+
+- uint32    id
+- uint32    gender
+- uint32    race
+- uint32    class
+- uint32    level
+- int32     hp
+- int32     mp
+- uint32    worldMapWorldId
+- uint32    worldMapGuardId
+- uint32    areaNameId
+- int64     lastOnline
+- bool      deletion
+- int64     deleteDate
+- int32     deleteSecRemaining
+- uint32    weapon
+- uint32    earring1
+- uint32    earring2
+- uint32    body
+- uint32    hand
+- uint32    feet
+- uint32    unk4
+- uint32    ring1
+- uint32    ring2
+- uint32    underwear
+- uint32    head
+- uint32    face
+- uint64    appearance
+- bool      isSecondCharacter
+- int32     adminLevel
+- bool      banned
+- int64     banExpiryDate
+- int32     banSecRemaining
+- int32     unk_ban1
+- int32     needsNameChange
+- int32     weaponModel
+- int32     unk7
+- int32     unk8
+- uint32    bodyModel
+- uint32    handModel
+- uint32    feetModel
+- int32     unk12
+- int32     unk13
+- int32     unk14
+- int32     unk15
+- int32     unk16
+- int32     unk17
+- uint32    weaponDye
+- uint32    bodyDye
+- uint32    handDye
+- uint32    feetDye
+- int32     unk18
+- int32     unk19
+- int32     unk20
+- uint32    underwearDye
+- uint32    styleBackDye
+- uint32    styleHeadDye
+- uint32    styleFaceDye
+- int32     styleHead
+- int32     styleFace
+- int32     styleBack
+- int32     styleWeapon
+- int32     styleBody
+- uint32    styleBodyDye
+- uint32    weaponEnchant
+- int32     curRestedXp
+- int32     maxRestedXp
+- bool      showFace
+- bool      isNewCharacter
+- int32     tutorialState
+- bool      showStyle
+- int32     appearance2
+- int32     unk22
+- int32     unk23
+- int32     unk24
+
+- string    name
+- bytes     details
+- bytes     shape
+- string    guildName
+
+- array     customStrings
+- - uint32  dbid
+- - string  string
