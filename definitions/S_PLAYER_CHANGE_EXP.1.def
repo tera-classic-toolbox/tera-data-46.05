@@ -8,4 +8,5 @@ uint32 gainedRestedEXP
 uint32 restedEXP
 uint32 maxRestedEXP
 float unk2
-uint32 unk3
+float unk3
+uint32 unk4

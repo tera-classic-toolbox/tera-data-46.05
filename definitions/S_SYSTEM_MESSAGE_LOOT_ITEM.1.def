@@ -8,4 +8,5 @@ int32  unk3
 int32  unk4
 byte   unk5
 byte   unk6
+byte   unk7
 string sysmsg
