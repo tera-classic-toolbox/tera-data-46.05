@@ -1,4 +1,14 @@
-# majorPatchVersion == 33
+# majorPatchVersion == 46
+
+ref icons
+ref accountBenefits
+ref name
+ref guildName
+ref guildRank
+ref details
+ref guildTitle
+ref guildLogo
+ref shape
 
 uint32 serverId
 uint32 playerId
@@ -65,8 +75,7 @@ bool   showStyle
 int64  titleCount
 int32  appearance2
 float  scale
-array<int32> icons
-array<int32> accountBenefits
+
 string name
 string guildName
 string guildRank
@@ -74,3 +83,5 @@ bytes  details
 string guildTitle
 string guildLogo
 bytes  shape
+array<int32> icons
+array<int32> accountBenefits
