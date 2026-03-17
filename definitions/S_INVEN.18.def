@@ -17,7 +17,7 @@ int32  unk2
 int32  unk3
 
 array items
-- ref bonuses
+- ref passivities
 - ref customString
 
 - int32  id
@@ -62,5 +62,5 @@ array items
 
 - string customString
 
-- array bonuses
-- - uint32 passivityId
+- array passivities
+- - uint32 id
